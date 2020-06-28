@@ -42,10 +42,6 @@ class ViewController: UIViewController {
         slider.setMaximumTrackImage(trackRightResizable, for: .normal)
         startNewGame()
         
-        
-        // dúvida: como os valores daqui (que já foram substituídos) puderam ser acessados na func showAlert?
-        
-        
     }
 
     @IBAction func showAlert() {
